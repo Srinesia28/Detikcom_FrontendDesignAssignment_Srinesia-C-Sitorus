@@ -1,0 +1,59 @@
+.font1 {
+  font-family: "Marlin Sans", sans-serif; /* Ganti dengan font pertama yang diinginkan */
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.font2 {
+  font-family: "Movatif Book"; /* Ganti dengan font kedua yang diinginkan */
+  font-size: 9px;
+  margin-left: -4px; /* Sesuaikan jarak antara "Srinesia" dan "Sitorus" */
+}
+
+.font3 {
+  font-family: "CA Negroni Black", sans-serif; /* Ganti dengan font kedua yang diinginkan */
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: -8px; /* Sesuaikan jarak antara "Srinesia" dan "Sitorus" */
+}
+
+.font4 {
+  font-family: "CA Negroni Black", sans-serif; /* Ganti dengan font kedua yang diinginkan */
+  font-size: 7px;
+  margin-top: -8px; /* Sesuaikan jarak antara "Srinesia" dan "Sitorus" */
+}
+
+.font5 {
+  font-family: "Marlin Sans", sans-serif; /* Ganti dengan font pertama yang diinginkan */
+  font-size: 25px;
+}
+.font6 {
+  font-family: "Montserrat"; /* Ganti dengan font pertama yang diinginkan */
+  font-size: 15px;
+}
+
+#about {
+  padding: 10px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.card-title {
+  font-size: 18px;
+  transition: color 0.3s ease; /* Efek transisi saat berubah warna */
+}
+
+.gambar:hover {
+  color: #007cbd; /* Warna tulisan saat disorot */
+}
+.gambar {
+  overflow: hidden; /* Menyembunyikan konten yang keluar dari batas container */
+}
+.gambar img {
+  transition: transform 0.3s ease; /* Efek transisi saat zoom */
+  width: 100%; /* Ukuran awal gambar sesuai dengan container */
+  height: 100%; /* Ukuran awal gambar sesuai dengan container */
+}
+.gambar:hover img {
+  transform: scale(1.1); /* Efek zoom saat gambar disorot */
+}
